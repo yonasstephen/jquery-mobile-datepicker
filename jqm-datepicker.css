@@ -1,0 +1,155 @@
+/*
+    Month Picker CSS
+    Version 1.0
+    */
+.monthpicker-input-a-wrapper{
+    text-decoration:none;
+    color:#333 !important;
+}
+
+.monthpicker-container{
+    width:18em !important;
+    height:auto !important;
+}
+
+.monthpicker-header{
+    text-align:center;
+    vertical-align:middle;
+    font-size:large;
+    height:2.5em;
+    line-height:2.5em;
+    background-color:#e9e9e9;
+}
+
+.monthpicker-header-btn{
+    width:3em;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.monthpicker-header-decrementyear{
+
+}
+
+.monthpicker-header-incrementyear{
+
+}
+
+.monthpicker-header-currentyear{
+    margin-left:2em;
+    margin-right:2em;
+}
+
+.monthpicker-content{
+
+}
+
+.monthpicker-content-table{
+    margin:auto;
+}
+
+.monthpicker-content-month-row{
+    height: 3em;
+}
+
+.monthpicker-content-month{
+    font-weight:bold;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-shadow:none;
+}
+
+.monthpicker-content-month:hover, .monthpicker-content-month-selected{
+    background-color:#e9e9e9;
+}
+
+/*
+    Date Picker CSS
+    Version 1.0
+
+    */
+
+.datepicker-input-a-wrapper{
+    text-decoration:none;
+    color:#333 !important;
+}
+
+.datepicker-container{
+    width:24em !important;
+    height:auto !important;
+}
+
+.datepicker-header{
+    text-align:center;
+    vertical-align:middle;
+    font-size:large;
+    height:2.5em;
+    line-height:2.5em;
+    background-color:#e9e9e9;
+}
+
+.datepicker-header-btn{
+    width:3em;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.datepicker-header-decrementyear{
+
+}
+
+.datepicker-header-incrementyear{
+
+}
+
+.datepicker-header-currentyear{
+    font-weight:bold;
+    margin-left:0.5em;
+    margin-right:2em;
+}
+
+.datepicker-header-currentmonth{
+    font-weight:bold;
+    margin-left:2em;
+    margin-right:0.5em;
+}
+
+.datepicker-content{
+
+}
+
+.datepicker-content-table{
+    margin:auto;
+}
+
+.datepicker-content-day-row{
+    height: 3em;
+}
+
+.datepicker-content-day{
+    font-weight:bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-shadow:none;
+    text-align:center;
+}
+
+.datepicker-content-notcurrent{
+    font-weight:bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-shadow:none;
+    color:#e9e9e9;
+}
+
+.datepicker-content-day-header{
+    font-weight:bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-shadow:none;
+    color:rgb(127, 181, 220);
+}
+
+.datepicker-content-day:hover, .datepicker-content-day-selected{
+    background-color:#e9e9e9;
+}
