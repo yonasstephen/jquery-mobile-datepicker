@@ -23,7 +23,7 @@
         return '_' + Math.random().toString(36).substr(2, 9);
     };
 
-    $.fn.monthpicker = function (months) {
+    $.fn.monthpicker = function () {
         var id = this.attr('id');
         if (!id) {
             id = $.fn.generateID();
@@ -55,7 +55,7 @@
         // Initialize Content (Months)
         var content_html = "";
         var itemInRow = 0;
-        months.forEach(function (value, i) {
+        $short_month_name.forEach(function (value, i) {
             if (itemInRow == 0) { content_html += "<tr class='monthpicker-content-month-row'>"; }
             content_html += "<td class='monthpicker-content-month' id='" + monthpicker_id + "-month-" + (i + 1) + "' onclick=\"" +
                 "$('#" + current_month_id + "').val(" + (i + 1) + ");" +
